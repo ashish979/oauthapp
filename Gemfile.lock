@@ -102,6 +102,7 @@ GEM
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     orm_adapter (0.5.0)
+    pg (0.18.4)
     rack (2.0.0.alpha)
       json
     rack-test (0.6.3)
@@ -192,6 +193,7 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   mysql2
+  pg
   rails (>= 5.0.0.beta3, < 5.1)
   sass-rails (~> 5.0)
   spring

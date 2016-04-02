@@ -1,1 +1,1 @@
-web: rails server -e development
+web: rails server
