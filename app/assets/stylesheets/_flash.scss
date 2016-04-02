@@ -1,0 +1,20 @@
+.flash_message{
+  text-align: center;
+  padding: 10px;
+  color: white;
+  margin-bottom: 10px;
+  font-family: CalibriRegular;
+  font-size: 14px;
+}
+
+.flash_notice{
+  background:#d6ffe2;
+  color:#2fc35c;
+  border:1px dashed #2fc35c;
+}
+
+.flash_error{
+  background:#ffe3e3;
+  color:#ff0000;
+  border:1px dashed #ff0000;
+}
