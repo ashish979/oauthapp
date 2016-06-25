@@ -1,11 +1,15 @@
 .flash_message{
-  text-align: center;
-  padding: 10px;
-  color: white;
-  margin-bottom: 10px;
-  font-family: CalibriRegular;
-  font-size: 14px;
-}
+   text-align: center;
+   padding: 10px;
+   color: white;
+   font-family: CalibriRegular;
+   width: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0;
+   z-index: 10000;
+   opacity: 0.8;
+ }
 
 .flash_notice{
   background:#d6ffe2;

@@ -10,10 +10,17 @@
   </head>
 
   <body>
-    <%= render partial: 'layouts/navbar' %>
-    <%= render partial: 'layouts/flash' %>
-    <div class="container-fluid">
-      <%= yield %>
-    </div>
+    <header>
+      <%= render partial: 'layouts/navbar' %>
+    </header>
+    <main class="main">
+      <%= render partial: 'layouts/flash' %>
+      <div class="container">
+        <%= yield %>
+      </div>
+    </main>
+    <footer class="footer">
+      &copy; ashish
+    </footer>
   </body>
 </html>
