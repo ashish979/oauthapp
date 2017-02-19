@@ -13,10 +13,9 @@
 ActiveRecord::Schema.define(version: 20160403113953) do
 
   create_table "identities", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|
-    t.string  "provider"
-    t.string  "uid"
-    t.integer "user_id"
-    t.index ["user_id"], name: "index_identities_on_user_id", using: :btree
+    t.string "provider"
+    t.string "uid"
+    t.string "email"
   end
 
   create_table "users", force: :cascade, options: "ENGINE=InnoDB DEFAULT CHARSET=utf8" do |t|

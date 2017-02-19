@@ -23,14 +23,14 @@ gem 'jbuilder', '~> 2.0'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 # devise for authentication
 gem 'devise', github: 'plataformatec/devise'
-# postgres sql to use in heroku
-# gem 'pg'
 # to login with twitter
 gem 'omniauth-twitter', :github => 'arunagw/omniauth-twitter'
 # to login with facebook
 gem 'omniauth-facebook'
 # to login with google
 gem 'omniauth-google-oauth2'
+# to solve openssl certificate error
+gem 'certified'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

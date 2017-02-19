@@ -21,3 +21,6 @@
 .byebug_history
 log/
 .idea/
+
+config/database.yml
+config/secrets.yml

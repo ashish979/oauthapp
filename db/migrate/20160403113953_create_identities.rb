@@ -3,7 +3,7 @@ class CreateIdentities < ActiveRecord::Migration[5.0]
     create_table :identities do |t|
       t.string :provider
       t.string :uid
-      t.references :user
+      t.string :email
     end
   end
 end

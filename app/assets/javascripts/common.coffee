@@ -3,5 +3,5 @@ $ ->
     $('.flash_message').hide()
     return
   )
-  50000
+  5000
   return
