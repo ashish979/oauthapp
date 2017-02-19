@@ -1,8 +1,8 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 #specifying ruby version
-ruby "2.3.1"
+ruby '2.4.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.0.0.rc2'
+gem 'rails', '~> 5.0.1'
 # Use mysql as the database for Active Record
 gem 'mysql2'
 # Use thin as the app server
@@ -16,15 +16,15 @@ gem 'coffee-rails', '~> 4.1.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
-gem 'turbolinks', '~> 5.0.0.beta'
+gem 'turbolinks', '~> 5.0.1'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bootstrap for styling
-gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'bootstrap', '~> 4.0.0.alpha6'
 # devise for authentication
 gem 'devise', github: 'plataformatec/devise'
 # postgres sql to use in heroku
-gem 'pg'
+# gem 'pg'
 # to login with twitter
 gem 'omniauth-twitter', :github => 'arunagw/omniauth-twitter'
 # to login with facebook
