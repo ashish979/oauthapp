@@ -5,7 +5,7 @@ This app is an example of multiple login system. User can sign up on this app or
 To setup the application:
 
 1. Clone the application.
-2. Install ruby 2.4.0
+2. Install ruby 2.6.03
 3. bundle install
 4. create database.yml and secrets.yml
 5. rake db:create db:migrate
